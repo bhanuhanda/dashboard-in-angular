@@ -12,9 +12,15 @@ import {
 } from "@angular/material";
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { DashboardService } from "src/app/modules/dashboard.service";
+import { ArticlesComponent } from "src/app/modules/articles/articles.component";
 
 @NgModule({
-  declarations: [DefaultComponent, DashboardComponent, PostsComponent],
+  declarations: [
+    DefaultComponent,
+    DashboardComponent,
+    PostsComponent,
+    ArticlesComponent,
+  ],
   imports: [
     CommonModule,
     RouterModule,
